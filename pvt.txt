@@ -1,0 +1,2 @@
+privatekeyofwallet1
+privatekeyofwallet2
