@@ -10,7 +10,7 @@ from ed25519 import SigningKey, VerifyingKey
 CONTRACT_INTERFACE_FILE = "exec_interface.json"
 PVT_FILE = "pvt.txt"
 ADDRESS_FILE = "address.txt"
-RPC_ENDPOINT = input("Enter RPC endpoint URL (e.g., http://127.0.0.1:8080): ").strip()
+RPC_ENDPOINT = "https://octra.network"
 TIMEOUT = 100  # seconds for tx confirmation
 
 class Wallet:
