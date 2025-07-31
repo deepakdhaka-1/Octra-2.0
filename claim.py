@@ -6,7 +6,7 @@ from nacl.signing import SigningKey
 from nacl.encoding import RawEncoder
 
 # Load wallet.json
-with open("wallet.json") as f:
+with open("pvt.txt") as f:
     wallet = json.load(f)
 
 priv_key_b64 = wallet["priv"]
